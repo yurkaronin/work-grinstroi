@@ -1,7 +1,16 @@
-/* Шрифты  */
-
 /* базовые стили глобальные */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
+  position: relative;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -33,6 +42,12 @@ body {
   text-decoration: none;
 }
 
+.wrapper {
+  max-width: 1140px;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+
 /* бэм-блоки */
 .button {
   text-align: center;
@@ -41,6 +56,19 @@ body {
   color: inherit;
   text-decoration: none;
   font-weight: 700;
+}
+
+.social-list {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-information p {
+  margin: 0;
 }
 
 .title {
@@ -54,8 +82,95 @@ body {
 
 /* Шапка сайта */
 .header {
-  background-color: #413D42;
+  background-color: transparent;
   color: #ffffff;
+  position: absolute;
+  min-height: 115px;
+  top: 21px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #828282;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header .logo {
+  max-width: 200px;
+  width: 100%;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.social-list {
+  max-width: 206px;
+  width: 100%;
+}
+
+.header .social-list {
+  margin-left: 100px;
+}
+
+.header .contact-information {
+  max-width: 220px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.header .button {
+  max-width: 221px;
+  width: 100%;
+}
+
+.button {
+  padding: 16px 20px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 14px;
+  border: 4px solid #467637;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.header .menu {
+  max-width: 100%;
+  width: 100%;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.menu a::before {
+  content: "|";
+  position: absolute;
+  right: -40px;
+}
+
+.menu li:last-child a::before {
+  display: none;
 }
 
 /* Первый экран */
@@ -66,4 +181,128 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: #ffffff;
+  padding-top: 190px;
+  padding-bottom: 140px;
+}
+
+.first-screen__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first-screen .title {
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 25px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.first-screen .title span {
+  color: #D5C695;
+}
+
+.first-screen .subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 110%;
+  color: #FFFFFF;
+  max-width: 500px;
+  margin: 0;
+}
+
+.first-screen .subtitle span {
+  font-weight: 700;
+}
+
+.first-screen .apartment-options {
+  max-width: 555px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.apartment-options img {
+  margin-bottom: 25px;
+}
+
+.apartment-options p {
+  font-size: 18px;
+  line-height: 150%;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.apartment-options p span {
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+}
+
+.home-advantages {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 85px;
+}
+
+.home-advantages li {
+  max-width: 198px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 45px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.home-advantages li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 28px;
+  background-image: url(../img/icons/star.svg);
+}
+
+.home-advantages p {
+  margin: 0;
+}
+
+.contact-information {
+  padding-left: 26px;
+}
+
+.contact-information a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-information a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -26px;
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url(../img/icons/phone.svg);
 }
