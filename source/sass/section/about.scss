@@ -1,0 +1,114 @@
+.about {
+  position: relative;
+  padding: 55px 0 70px;
+  overflow: hidden;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__description {
+  padding: 35px 90px;
+  padding-left: 0;
+}
+
+.about__text {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  position: relative;
+}
+
+.about__text p {
+  margin-top: 0;
+}
+
+.about__text::before {
+  content: "";
+  display: block;
+  width: 64px;
+  height: 4px;
+  background-color: #467637;
+  position: absolute;
+  top: 10px;
+  left: -100px;
+}
+
+.accent {
+  color: #284a2e;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.about__data {
+  width: 450px;
+  background-color: #467637;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23437135' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color: #ffffff;
+  padding: 50px 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.about__data::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 200%;
+  top: -50%;
+  left: 0;
+  right: 0;
+  background-color: #467637;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23437135' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  z-index: -1;
+}
+
+.about .title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 100%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 52px;
+  max-width: 450px;
+  text-transform: none;
+}
+
+.about__data img {
+  max-width: 123px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 25px;
+}
+
+.about__data-list {
+  position: sticky;
+  top: 115px;
+}
+
+.about__data-list li {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.about__data-list p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  color: #f7f7ec;
+}
+
+.about__data-list span {
+  color: #d5c695;
+  font-weight: 800;
+  font-size: 100px;
+  line-height: 100%;
+  margin-bottom: 10px;
+}
