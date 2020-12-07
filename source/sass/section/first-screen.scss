@@ -1,0 +1,52 @@
+.first-screen {
+  background-color: #413d42;
+  background-image: url("../img/bg/first-screen.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  padding-top: 190px;
+  padding-bottom: 140px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.first-screen__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.first-screen .title {
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 25px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.first-screen .title span {
+  color: #d5c695;
+}
+
+.first-screen .subtitle {
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 110%;
+  color: #ffffff;
+  max-width: 500px;
+  margin: 0;
+}
+
+.first-screen .subtitle span {
+  font-weight: 700;
+}
+
+.first-screen .apartment-options {
+  max-width: 555px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

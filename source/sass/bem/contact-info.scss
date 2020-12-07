@@ -1,0 +1,28 @@
+.contact-info p {
+  margin: 0;
+}
+
+.contact-info {
+  padding-left: 26px;
+}
+
+.contact-info a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-info a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -26px;
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url("../img/icons/phone.svg");
+}

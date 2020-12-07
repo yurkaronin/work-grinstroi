@@ -1,0 +1,83 @@
+.header {
+  background-color: transparent;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 21px;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid #828282;
+  transition: 0.3s;
+  z-index: 111;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header .logo {
+  max-width: 200px;
+  width: 100%;
+  position: relative;
+  transition: 0.3s;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
+.header .social-list {
+  margin-left: 100px;
+  max-width: 206px;
+}
+
+.header .contact-info {
+  max-width: 220px;
+  width: 100%;
+  margin-left: 50px;
+  position: relative;
+  transition: 0.3s;
+}
+
+.header .button {
+  max-width: 221px;
+  width: 100%;
+  position: relative;
+  transition: 0.3s;
+}
+
+.header.sticky {
+  background-color: #ffffff;
+  top: 0;
+  color: #000000;
+  padding-top: 5px;
+  border-bottom: none;
+}
+
+.header.sticky .button,
+.header.sticky .link {
+  color: #000000;
+}
+
+.header.sticky .button:hover,
+.header.sticky .button:active,
+.header.sticky .button:focus {
+  background-color: #467637;
+  color: #ffffff;
+}
+
+.header.sticky .logo-white {
+  display: none;
+}
+
+.header .logo-color {
+  display: none;
+}
+
+.header.sticky .logo-color {
+  opacity: 1;
+  display: block;
+}

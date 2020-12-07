@@ -1,0 +1,42 @@
+.menu {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu a {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  transition: 0.3s;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  color: #d5c695;
+}
+
+.menu a::before {
+  content: "|";
+  position: absolute;
+  right: -40px;
+}
+
+.menu li:last-child a::before {
+  display: none;
+}

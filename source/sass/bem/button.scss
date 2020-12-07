@@ -2,7 +2,43 @@
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: inherit;
   text-decoration: none;
   font-weight: 700;
+  padding: 16px 20px;
+  line-height: 100%;
+  font-size: 14px;
+  border: 4px solid #467637;
+  color: #ffffff;
+  background-color: transparent;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #467637;
+  color: #ffffff;
+}
+
+.button--white {
+  color: #000000;
+  border: 4px solid #000000;
+}
+
+.button--green {
+  background-color: #467637;
+  color: #ffffff;
+}
+
+.button--white:hover,
+.button--white:active,
+.button--white:focus {
+  background-color: #444444;
+  border-color: #444444;
+  color: #ffffff;
+}
+
+.button--green:hover,
+.button--green:active,
+.button--green:focus {
+  background-color: #284a2e;
+  border-color: #284a2e;
 }
