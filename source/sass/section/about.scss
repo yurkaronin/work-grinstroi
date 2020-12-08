@@ -10,8 +10,7 @@
 }
 
 .about__description {
-  padding: 35px 90px;
-  padding-left: 0;
+  padding: 35px 90px 0 0;
 }
 
 .about__text {
@@ -19,6 +18,7 @@
   line-height: 22px;
   color: #000000;
   position: relative;
+  margin-bottom: 60px;
 }
 
 .about__text p {
@@ -58,7 +58,7 @@
   content: "";
   display: block;
   position: absolute;
-  width: 100%;
+  width: 500%;
   height: 200%;
   top: -50%;
   left: 0;
@@ -111,4 +111,9 @@
   font-size: 100px;
   line-height: 100%;
   margin-bottom: 10px;
+}
+
+.about .video-button {
+  margin: 0 auto;
+  margin-right: 0;
 }

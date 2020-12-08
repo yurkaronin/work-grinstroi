@@ -7,6 +7,7 @@
   color: #ffffff;
   padding-top: 190px;
   padding-bottom: 140px;
+  position: relative;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
@@ -49,4 +50,9 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.first-screen .top-promo {
+  position: absolute;
+  bottom: -110px;
 }

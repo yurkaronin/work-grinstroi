@@ -1,0 +1,27 @@
+.video-button {
+  max-width: 340px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.video-button p {
+  max-width: 185px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 157%;
+  text-transform: uppercase;
+  color: #467637;
+  margin-right: 15px;
+}
+
+.video-button button {
+  border: none;
+  background-color: transparent;
+  max-width: 110px;
+  max-height: 110px;
+  object-fit: cover;
+  padding: 0;
+}
