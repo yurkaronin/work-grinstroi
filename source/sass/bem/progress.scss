@@ -1,0 +1,89 @@
+.progress {
+  max-width: 1100px;
+  width: 100%;
+  padding: 38px 35px;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='32' height='64' viewBox='0 0 32 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 28h20V16h-4v8H4V4h28v28h-4V8H8v12h4v-8h12v20H0v-4zm12 8h20v4H16v24H0v-4h12V36zm16 12h-4v12h8v4H20V44h12v12h-4v-8zM0 36h8v20H0v-4h4V40H0v-4z' fill='%23f7f7f7' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  color: #000000;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -550px;
+  z-index: 99;
+}
+
+.progress__house-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.progress__bar {
+  width: 100%;
+  background-color: gray;
+  color: #ffffff;
+  height: 10px;
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+}
+
+.progress__house-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress__house-list label {
+  font-size: 20px;
+  line-height: 130%;
+  color: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.progress__house-list label span {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #467637;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.progress__house-list input {
+  display: none;
+}
+
+input[type="checkbox"] + label::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: block;
+  background: linear-gradient(180deg, #467637 0%, #284a2e 100%), #467637;
+  border-radius: 50%;
+  border: 7px solid #ffffff;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.1));
+  margin-top: 66px;
+}
+
+input[type="checkbox"]:checked + label::after {
+  content: "";
+  background: url("../img/label/finish.svg");
+  display: block;
+  width: 88px;
+  height: 88px;
+  border: none;
+  border-radius: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 65px;
+  margin-top: 40px;
+}
+
+.progress__wrapper {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
