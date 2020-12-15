@@ -1,0 +1,48 @@
+.infrastructure {
+  position: relative;
+  padding-top: 170px;
+  overflow: hidden;
+}
+
+.infrastructure .title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 44px;
+  max-width: 840px;
+  margin-bottom: 41px;
+  text-transform: none;
+}
+
+.infrastructure__wrap {
+  max-width: 710px;
+  width: 100%;
+  padding: 50px 65px 62px;
+  background-color: #ffffff;
+  color: #000000;
+  position: absolute;
+  top: 55px;
+  right: 0;
+  z-index: 2;
+  max-height: 85%;
+  overflow-y: auto;
+}
+
+.infrastructure__list li {
+  margin-bottom: 15px;
+}
+
+.infrastructure__list img {
+  margin-right: 15px;
+  max-width: 35px;
+}
+
+.infrastructure .map {
+  width: 100%;
+  position: relative;
+  background-image: url("../img/map/bg-map.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 750px;
+  left: 10%;
+}

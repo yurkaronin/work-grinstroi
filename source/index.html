@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Лендинг Южная Звезда</title>
+  <script src="https://use.fontawesome.com/ac41419af2.js"></script>
   <link rel="stylesheet" href="css/styles.min.css">
+
 </head>
 
 <body class="body">
@@ -214,7 +216,7 @@
             <div class="video-button">
               <p>Смотреть видео-ролик
                 про ЖК Южная Звезда</p>
-              <button><img src="img/play-button.svg" alt="Кнопка просмотра видео"></button>
+              <a class="button button--round" href="#"><i class="fa fa-play" aria-hidden="true"></i></a>
             </div>
           </div>
           <div class="about__data">
@@ -281,8 +283,6 @@
 
       <div class="progress">
         <div class="progress__wrapper">
-          <!-- <input class="progress__bar" type="range" name="volume"min="0" max="100" value="42"> -->
-          <!-- <progress class="progress__bar" min="1" max="100" value="42"></progress> -->
           <div class="progress__bar">
             <span class="bar">
               <span class="progress__item"></span>
@@ -326,18 +326,64 @@
 
       </div>
     </section>
-    <section class="">
+    <section class="infrastructure">
+      <div class="wrapper">
+        <h2 class="title">Развитая инфраструктура от школы
+          до больницы в шаговой доступности</h2>
+      </div>
+      <div id="map" class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae8870b1d475d96abc691a8a86077f68f0babbfbaf69cc97a206cda47b3ddd5b4&amp;width=100%25&amp;height=720&amp;lang=ru_RU&amp;scroll=false"></script>
+        <div class="infrastructure__wrap">
+          <ul class="infrastructure__list  list">
+            <!-- Крупные и популярные объекты  -->
+            <li><img src="img/map/1.svg" alt="Иконка"><span>МЕГА, семейный торговый центр</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>СТОЛ ПЛИТ Хоум</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Леруа Мерлен</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>ТЦ Монорама</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>IKEA</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Ашан</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Декатлон</span></li>
 
+            <!-- Мелкие типовые объекты которые важно показать  -->
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Гипермаркеты и Торгово Развлекательные Центры</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Магазины и торговые точки</span></li>
 
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Косметика, салоны красоты и парикмахерские</span></li>
 
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Садики и образовательные учреждения</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Спортивные товары</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Фитнес клубы и спортивные залы</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Спортивные секции</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Стоматологические клиники</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Больницы, Поликлиники, Аптеки</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Лаборатории и Медицинские центры</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Зоомагазины, Зоостационары и Ветклиники</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Почтовые отделения</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Автомойки, Автосалоны и СТО</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Парковки и АЗС</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Где поесть</span></li>
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Кофейни и кондитерские</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Банки и банкоматы</span></li>
+
+            <li><img src="img/map/1.svg" alt="Иконка"><span>Остановки общественного транспорта</span></li>
+
+          </ul>
+        </div>
+      </div>
     </section>
-
-
 
 
   </main>
   <footer class="footer"></footer>
-
+  <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=1dba075a-a65a-4b22-84a2-ebb26f26fe43" type="text/javascript"></script> -->
+  <!-- <script src="js/map.min.js"></script> -->
   <script src="js/main.min.js"></script>
 </body>
 

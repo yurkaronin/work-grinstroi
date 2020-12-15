@@ -13,17 +13,29 @@
   transition: 0.3s;
 }
 
-.button:hover {
-  background-color: #467637;
-  color: #ffffff;
-}
-
 .button--white {
   color: #000000;
   border: 4px solid #000000;
 }
 
 .button--green {
+  background-color: #467637;
+  color: #ffffff;
+}
+
+.button--round {
+  max-width: 110px;
+  max-height: 110px;
+  padding: 10%;
+  background-color: #284a2e;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
   background-color: #467637;
   color: #ffffff;
 }

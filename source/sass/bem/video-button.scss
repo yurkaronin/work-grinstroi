@@ -17,11 +17,9 @@
   margin-right: 15px;
 }
 
-.video-button button {
-  border: none;
-  background-color: transparent;
-  max-width: 110px;
-  max-height: 110px;
-  object-fit: cover;
-  padding: 0;
+.video-button .button i {
+  color: #ffffff;
+  font-size: 4em;
+  line-height: 100%;
+  margin-left: 35%;
 }
