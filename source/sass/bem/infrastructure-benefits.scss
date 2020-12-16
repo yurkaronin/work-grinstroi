@@ -8,11 +8,11 @@
 
 .infrastructure-benefits__list {
   max-width: 200px;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .infrastructure-benefits__item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -32,8 +32,6 @@
   font-size: 30px;
   line-height: 100%;
   color: #467637;
-  display: block;
-  margin-bottom: 10px;
 }
 
 .infrastructure-benefits__wrapper p {
@@ -62,8 +60,13 @@
 .infrastructure-benefits__list--border {
   border: 4px solid #d5c695;
   box-sizing: border-box;
-  padding: 40px 55px 45px 40px;
-  max-width: 350px;
+  padding: 40px 35px 50px;
+  max-width: 380px;
+}
+
+.infrastructure-benefits__list--border span {
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .infrastructure-benefits__footer {

@@ -10,44 +10,44 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-}
 
-.top-promo__title {
-  margin: 0;
-  max-width: 220px;
-  width: 100%;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 122%;
-  text-transform: uppercase;
-  color: #000000;
-}
+  &__title {
+    margin: 0;
+    max-width: 220px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 122%;
+    text-transform: uppercase;
+    color: #000000;
+  }
 
-.top-promo__title span {
-  color: #284A2E;
-  display: block;
-}
+  &__title span {
+    color: #284a2e;
+    display: block;
+  }
 
-.top-promo__description {
-  font-size: 18px;
-  margin: 0;
-  max-width: 245px;
-  width: 100%;
-  color: #000000;
-}
+  &__description {
+    font-size: 18px;
+    margin: 0;
+    max-width: 245px;
+    width: 100%;
+    color: #000000;
+  }
 
-.top-promo__buttons-wrapper {
-  display: flex;
-  flex-direction: column;
-  max-width: 350px;
-  width: 100%;
-}
+  &__buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+  }
 
-.top-promo__buttons-wrapper .button {
-  width: 100%;
-  margin-bottom: 16px;
-}
+  &__buttons-wrapper .button {
+    width: 100%;
+    margin-bottom: 16px;
+  }
 
-.top-promo__buttons-wrapper .button:last-child {
-  margin-bottom: 0;
+  &__buttons-wrapper .button:last-child {
+    margin-bottom: 0;
+  }
 }

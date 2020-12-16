@@ -1,6 +1,7 @@
 .house-map {
   position: relative;
   min-height: 763px;
+  overflow: revert;
 }
 
 .map__polygon {
