@@ -1,8 +1,8 @@
 /* base */
 @import "normalize";
 @import "basic";
-
 /* bem */
+@import "bem/progress-bar.scss";
 @import "bem/button.scss";
 @import "bem/social-list.scss";
 @import "bem/title";
