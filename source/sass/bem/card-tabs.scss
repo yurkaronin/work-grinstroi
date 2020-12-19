@@ -1,0 +1,39 @@
+.card-tabs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-bottom: 35px;
+
+  &__item {
+    max-width: 33.3%;
+    width: 100%;
+  }
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #f7f7ec;
+    padding: 0 25px 25px 0;
+    color: #000000;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  &__button span {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  &__button:active,
+  &__button:hover,
+  &__button:focus,
+  &__button--active {
+    border-color: #467637;
+    color: #467637;
+  }
+}
