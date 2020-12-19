@@ -644,6 +644,83 @@
       </div>
     </section>
 
+    <section class="contact-form">
+      <div class="wrapper">
+        <h2 class="visually-hidden">Форма обратной связи</h2>
+        <span class="contact-form__title  title">Отправьте заявку, что бы мы могли рассказать вам о наличии
+          и стоимости квартир на сегодняшний день</span>
+
+        <form class="contact-form__content" action="">
+
+          <div class="contact-form__header">
+            <fieldset class="contact-form__repairs">
+              <legend class="visually-hidden">Выбор варианта ремонта в квартире</legend>
+                <p class="contact-form__wrapper-title">Квартира должна быть с ремонтом
+                  или предчистовой отделкой?</p>
+              <ul class="list">
+                <li><input type="radio">
+                  <label for="">Ремонт</label>
+                </li>
+                <li><input type="radio">
+                  <label for="">Предчистовая отделка</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="contact-form__floor">
+              <legend class="visually-hidden">Выбор подходящего этажа</legend>
+                <p class="contact-form__wrapper-title">В В ЖК 7 домов по 9 этажей.
+                  Какие этажи вас устроят?</p.>
+              <select>
+                <option disabled>Выберите этаж</option>
+                <option value="1 этаж">1 этаж</option>
+                <option value="2 этаж">2 этаж</option>
+                <option value="3 этаж">3 этаж</option>
+                <option value="4 этаж">4 этаж</option>
+                <option value="5 этаж">5 этаж</option>
+                <option value="6 этаж" selected>6 этаж</option>
+                <option value="7 этаж">7 этаж</option>
+              </select>
+              <ul class="list">
+                <li>
+                  <input type="checkbox">
+                  <label for="">не первый и не последний</label>
+                </li>
+                <li>
+                  <input type="checkbox" checked>
+                  <label for="">Этаж не важен</label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="contact-form__footer">
+            <ul class="list">
+              <li>
+                <label class="contact-form__label" for="write-us-name">Ваше имя:</label>
+                <input class="contact-form__input" name="name" id="write-us-name" type="text" placeholder="Имя Фамилия">
+              </li>
+              <li>
+                <label class="contact-form__label" for="write-us-name">Контактный номер:</label>
+                <input class="contact-form__input" name="name" id="write-us-name" type="tel" placeholder="Ваш телефон">
+              </li>
+            </ul>
+
+            <button class="contact-form__button  button" type="submit">Отправить</button>
+          </div>
+
+          <fieldset class="contact-form__copyright">
+            <input type="checkbox" checked>
+            <p>Даю согласие на обработку <a href="" target="_blank">персональных данных</a></p>
+          </fieldset>
+
+
+        </form>
+
+
+
+      </div>
+    </section>
+
 
   </main>
   <footer class="footer"></footer>

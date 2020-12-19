@@ -1,0 +1,33 @@
+.contact-form {
+  &__title {
+    font-weight: 700;
+    font-size: 44px;
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  &__header {
+    background-color: #f7f7ec;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  & fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .contact-form__wrapper-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+  }
+
+  &__header fieldset {
+    max-width: 50%;
+    width: 100%;
+    padding: 42px 66px 165px;
+  }
+}
