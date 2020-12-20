@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .infrastructure-benefits__list {
@@ -15,7 +15,7 @@
   margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-start;
 }
 
 .infrastructure-benefits__item:last-child {
